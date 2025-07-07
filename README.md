@@ -1,70 +1,60 @@
-CHAT_APP_IN_PYTHON
+# 🗨️ CHAT_APP_IN_PYTHON
 
-Connect, Communicate, Conquer in Real-Time
+**Connect, Communicate, Conquer in Real-Time**
 
-last-commit repo-top-language repo-language-count
-Built with the tools and technologies:
+![Last Commit](https://img.shields.io/github/last-commit/Abdullah-319/chat_app_in_python)  
+![Top Language](https://img.shields.io/github/languages/top/Abdullah-319/chat_app_in_python)  
+![Languages Count](https://img.shields.io/github/languages/count/Abdullah-319/chat_app_in_python)
 
-Python
+---
 
-Table of Contents
+## 🛠 Built With
 
-Overview
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
-Overview
+- 🐍 **Python**
 
-chat_app_in_python is a straightforward, multi-threaded chat system designed to facilitate real-time text communication between multiple clients and a central server. It provides a solid foundation for building interactive chat applications within local network environments.
+---
 
-Why chat_app_in_python?
+## 📚 Table of Contents
 
-This project simplifies the development of real-time messaging systems. The core features include:
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
 
-🟢 Concurrency: Supports multiple clients simultaneously through multi-threaded server architecture.
-🔵 Bidirectional Communication: Enables seamless, real-time message exchange between clients and server.
-🟠 Client Management: Handles user interactions and message sending/receiving efficiently.
-🟣 Message Broadcasting: Ensures messages are broadcasted to all connected clients instantly.
-🟡 Session Handling: Manages user sessions and dynamic join/leave events smoothly.
-Getting Started
+---
 
-Prerequisites
+## 🧩 Overview
 
-This project requires the following dependencies:
+**`chat_app_in_python`** is a straightforward, multi-threaded chat system designed to facilitate real-time text communication between multiple clients and a central server. It’s ideal for learning, experimenting, or building scalable chat features within local networks.
 
-Programming Language: Python
-Package Manager: Conda
-Installation
+### 🚀 Why chat_app_in_python?
 
-Build chat_app_in_python from the source and install dependencies:
+This project simplifies the development of real-time messaging systems with core features such as:
 
-Clone the repository:
+- 🟢 **Concurrency**: Multi-threaded server handles multiple clients simultaneously.
+- 🔵 **Bidirectional Communication**: Real-time message exchange between clients and server.
+- 🟠 **Client Management**: Efficient user interaction and message handling.
+- 🟣 **Message Broadcasting**: Broadcasts messages to all connected clients instantly.
+- 🟡 **Session Handling**: Smoothly manages user join/leave sessions.
 
-❯ git clone https://github.com/Abdullah-319/chat_app_in_python
-Navigate to the project directory:
+---
 
-❯ cd chat_app_in_python
-Install the dependencies:
+## 🏁 Getting Started
 
-Using conda:
+### ✅ Prerequisites
 
-❯ conda env create -f conda.yml
-Usage
+Before running the app, ensure you have the following:
 
-Run the project with:
+- **Programming Language**: Python
+- **Package Manager**: Conda
 
-Using conda:
+---
 
-conda activate {venv}
-python {entrypoint}
-Testing
+## 🧱 Installation
 
-Chat_app_in_python uses the {test_framework} test framework. Run the test suite with:
+### 1. Clone the repository
 
-Using conda:
-
-conda activate {venv}
-pytest
-⬆ Return
+```bash
+git clone https://github.com/Abdullah-319/chat_app_in_python
